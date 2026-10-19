@@ -1,0 +1,16 @@
+{
+  "name": "crm-system",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @crm/frontend --filter @crm/backend dev",
+    "dev:frontend": "pnpm --filter @crm/frontend dev",
+    "dev:backend": "pnpm --filter @crm/backend dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test:backend": "pnpm --filter @crm/backend test"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}

@@ -1,0 +1,11 @@
+packages:
+  - frontend
+  - backend
+allowBuilds:
+  '@parcel/watcher': true
+  '@prisma/engines': true
+  prisma: true
+  '@scarf/scarf': false
+  argon2: true
+  esbuild: true
+  workerd: false
